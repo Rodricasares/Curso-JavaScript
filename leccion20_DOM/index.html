@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DOM Js</title>  
+<style>
+    .negro{
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      background: rgb(151, 141, 141);
+    }
+    .azul{color:blue;}
+    .rojo{
+        color:#d32323;
+    }
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DOM con JavaScript</title>
+</head>
+<body>
+    <h1 onclick="changeText(this)">Manejo DOM con JavaScript</h1>
+    
+    <br/>
+    <br/>
+    <script>
+       function changeText(titulo){
+        console.log(titulo)
+        console.log(titulo.innerHTML)
+
+titulo.innerHTML = 'Cambiar texto desde el metodo'        } 
+
+    </script>
+</body>
+</html>

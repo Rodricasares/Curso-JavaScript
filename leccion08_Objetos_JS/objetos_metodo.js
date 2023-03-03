@@ -1,0 +1,20 @@
+let x = 10;
+console.log(x.length);
+
+let person = {
+
+    name:'Mario',
+    lastName:'Zarza',
+    age:6,
+    email:'zarzita@email.com',
+    //agregar metodo ó función al objeto fullName
+    fullName: function(){
+        return ' Name:' + this.name + ' Last Name:' + this.lastName  + ' Age:' +  this.age   + ' Email:' +  this.email;;
+    }
+}
+
+console.log(person.name);
+console.log(person.lastName);
+console.log(person.age);
+console.log(person.email);
+console.log(person.fullName()) // metodo 
