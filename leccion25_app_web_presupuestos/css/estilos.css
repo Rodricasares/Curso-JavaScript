@@ -258,3 +258,16 @@ h2 {
 .elemento:hover .elemento_eliminar--btn { display: block; }
 .elemento:hover .elemento_valor { transform: translateX(-20px); }
 .elemento:hover .elemento_porcentaje { transform: translateX(-20px); }
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 10px;
+    }
+  
+    .agregar_contenedor {
+   display: flex;
+   flex-flow: wrap;
+   justify-content: space-between;
+    }
+    
+}
